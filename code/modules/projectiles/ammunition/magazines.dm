@@ -317,7 +317,7 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/lrifle/pk
-	name = "PK munitions box (.30 Rifle)"
+	name = "LMG munitions box (.30 Rifle)"
 	icon_state = "pk_box"
 	origin_tech = list(TECH_COMBAT = 2)
 	mag_type = MAGAZINE
@@ -467,6 +467,16 @@
 	max_ammo = 5
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/sllrifle/hv
+	name = "ammo strip (.30 Rifle HV)"
+	icon_state = "lrifle"
+	icon = 'icons/obj/ammo_speed.dmi'
+	caliber = CAL_LRIFLE
+	matter = list(MATERIAL_STEEL = 3)
+	ammo_type = /obj/item/ammo_casing/lrifle/hv
+	max_ammo = 5
+	multiple_sprites = 1
+
 /// OTHER ///
 
 /obj/item/ammo_magazine/caps
@@ -491,6 +501,7 @@
 	multiple_sprites = 1
 	max_ammo = 4
 	rarity_value = 100
+	spawn_blacklisted = TRUE
 
 /obj/item/ammo_magazine/a75/empty
 	initial_ammo = 0

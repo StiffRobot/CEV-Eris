@@ -1,6 +1,6 @@
 #define MERGE_SPAWN_TAGS(first, second) first + ";" + second
 
-#define CHEAP_ITEM_PRICE 800
+#define CHEAP_ITEM_PRICE 400
 
 //guns defines
 #define GUN_CHEAP_PRICE 1700
@@ -538,6 +538,7 @@
 
 // FACTION KEYWORDS
 #define SPAWN_ASTERS "asters"
+#define SPAWN_EXCELSIOR "excelsior"
 #define SPAWN_FROZEN_STAR "frozen_star"
 #define SPAWN_IRONHAMMER "ironhammer"
 #define SPAWN_NANOTRASEN "nanotrasen"
